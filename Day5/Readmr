@@ -1,0 +1,5 @@
+create a input filed
+define state with usestate hook
+get and update value from input filed dynamicaly
+disply input value on screen(live preview)
+add a clear input button
