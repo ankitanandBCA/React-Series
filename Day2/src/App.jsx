@@ -1,30 +1,42 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
 import './App.css'
 import Product from './Component/Product'
+import PropsWala from './Component/PropsWala'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-  <>
-  <h1>Resuable Component</h1>
-   { /*<Product/>
-     <Product/>
-      <Product/>
-       <Product/>
-        <Product/> */}
-<br /><br />
-<H3>Props tage</H3>
+    <>
+      <h1>Reusable Component</h1>
 
-<Product title="s24" brand="sumsung" price={125000}/>
+      {/* 
+      <Product />
+      <Product />
+      <Product />
+      <Product />
+      */}
 
-<Product title="I phone 16" brand="Apple" price={250000}/>
+      <br />
+      <br />
 
-<Product title="One plus 13" brand="OnePlus" price={125000}/>
-  </>
+      <h3>Props Tage</h3>
+
+      <PropsWala
+        title="S24"
+        brand="Samsung"
+        price={125000}
+      />
+
+      <PropsWala
+        title="iPhone 16"
+        brand="Apple"
+        price={250000}
+      />
+
+      <PropsWala
+        title="OnePlus 13"
+        brand="OnePlus"
+        price={125000}
+      />
+    </>
   )
 }
 
