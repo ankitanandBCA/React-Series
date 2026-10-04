@@ -10,11 +10,20 @@ function App() {
 
   return (
   <>
-    <Product/>
+  <h1>Resuable Component</h1>
+   { /*<Product/>
      <Product/>
       <Product/>
        <Product/>
-        <Product/>
+        <Product/> */}
+<br /><br />
+<H3>Props tage</H3>
+
+<Product title="s24" brand="sumsung" price={125000}/>
+
+<Product title="I phone 16" brand="Apple" price={250000}/>
+
+<Product title="One plus 13" brand="OnePlus" price={125000}/>
   </>
   )
 }
