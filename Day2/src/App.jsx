@@ -42,7 +42,7 @@ function App() {
     
     <ConditionalRendering   name="Ankit" age={28}              />
     
-    
+     <ConditionalRendering   name="Ankit" age={28}    pencard={true}          />
     
     </>
   )
